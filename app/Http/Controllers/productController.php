@@ -42,17 +42,17 @@ return $customclass->interfaceFun();
     // }
     // }
 
-    public function down(Request $req, $id)
-    {
-        return response()->download(public_path('homesite/image/' . $id));
-    }
+    // public function down(Request $req, $id)
+    // {
+    //     return response()->download(public_path('homesite/image/' . $id));
+    // }
 
     // public function addProduct(Request $request){
 
     // $saveData=$request->all();
-    // // if($request->has('image')){
+    
     // $saveData['image']=$request->file('image')->store('images', 'public');
-    // // }
+    
     // $saveData['status']="status";
     // $size=$request->image->getSize();
     // $mime=$request->image->getClientMimeType();

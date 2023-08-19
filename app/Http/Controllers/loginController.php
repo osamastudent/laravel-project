@@ -14,7 +14,9 @@ class loginController extends Controller
     {
         return view('login');
     }
-
+public function navbarjs(){
+return view('navbarjs');
+}
 // public function setSession(){
 // $email=session()->put('email','emaillll@gmail.com');
 // return $email;

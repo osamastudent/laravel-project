@@ -89,3 +89,6 @@ Route::group(['middleware'=>['routegroup']],function()
     route::get('/showmany',[studentController::class,'showmany']);
     // route::post('/register',[Controller::class,'addUser']); 
 });
+
+
+Route::get('/navbarjs',[loginController::class,'navbarjs']);
